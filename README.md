@@ -7,6 +7,10 @@
 
 **MCP Localhost QA Starter** is a local, token-protected MCP server for AI-assisted project review, localhost QA, filesystem inspection, shell verification, patch workflows, and browser screenshot evidence capture.
 
+### Let AI agents inspect your local project, run verification commands, start localhost, capture browser screenshots, and save QA evidence safely inside your repo.
+
+![Architecture](assets/architect.png)
+
 It is designed for developers, system architects, business analysts, QA reviewers, and AI-assisted engineering teams who want tools like ChatGPT, Codex, Claude, Cursor, Gemini CLI, or any MCP-compatible client to review a local project safely and produce repo-local QA evidence.
 
 > This project is intended to run locally. Do not expose it publicly without token protection and a clear network boundary.
