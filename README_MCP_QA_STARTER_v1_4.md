@@ -1,4 +1,4 @@
-# MCP Localhost QA Starter v1.4
+# MCP Localhost QA Starter v1.4.1
 
 This package starts a token-protected MCP server for ChatGPT QA review against a local project/repo.
 

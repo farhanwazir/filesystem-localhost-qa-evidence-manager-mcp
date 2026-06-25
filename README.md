@@ -20,8 +20,8 @@ It is designed for developers, system architects, business analysts, QA reviewer
 | [`README.md`](README.md) | Main installation, setup, usage, examples, and project overview |
 | [`SECURITY.md`](SECURITY.md) | Security model, safe usage rules, tunnel warning, token rotation, and vulnerability reporting |
 | [`RELEASES.md`](RELEASES.md) | Release tag, release title, and GitHub release description |
-| [`GITHUB_RELEASE_v1.4.0.md`](GITHUB_RELEASE_v1.4.0.md) | Paste-ready GitHub release body for v1.4.0 |
-| [`CHANGELOG.md`](CHANGELOG.md) | Version history and v1.4.0 changes |
+| [`GITHUB_RELEASE_v1.4.1.md`](GITHUB_RELEASE_v1.4.1.md) | Paste-ready GitHub release body for v1.4.1 |
+| [`CHANGELOG.md`](CHANGELOG.md) | Version history and v1.4.1 changes |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution rules, pull request expectations, and testing guidance |
 | [`LICENSE`](LICENSE) | MIT license |
 | [`docs/qa-evidence-workflow.md`](docs/qa-evidence-workflow.md) | Recommended QA evidence folder and report workflow |
@@ -331,13 +331,13 @@ Review README, setup instructions, examples, and security documentation. Do not 
 Current public release:
 
 ```text
-v1.4.0
+v1.4.1
 ```
 
 See:
 
 - [`RELEASES.md`](RELEASES.md)
-- [`GITHUB_RELEASE_v1.4.0.md`](GITHUB_RELEASE_v1.4.0.md)
+- [`GITHUB_RELEASE_v1.4.1.md`](GITHUB_RELEASE_v1.4.1.md)
 - [`CHANGELOG.md`](CHANGELOG.md)
 
 ---
