@@ -17,9 +17,9 @@ It supports:
 Keep these files together in one folder:
 
 ```text
-fileSystemMCP_localhost_QA.py
-start_mcp_qa.py
-start_mcp_qa_windows.bat
+src/fileSystemMCP_localhost_QA.py
+src/start_mcp_qa.py
+scripts/start_mcp_qa_windows.bat
 README_MCP_QA_STARTER.md
 ```
 
@@ -28,7 +28,7 @@ Do not place them inside the venv `bin/` folder. Keep the venv as a sibling fold
 ## Recommended WSL usage
 
 ```bash
-python3 /mnt/c/laragon/www/chatgpt_localfile_mcp/FileSystem-MCP-for-GPT/start_mcp_qa.py \
+python3 /mnt/c/laragon/www/chatgpt_localfile_mcp/FileSystem-MCP-for-GPT/src/start_mcp_qa.py \
   "/mnt/c/laragon/www/MS-SaaSPlatform" \
   --venv "/mnt/c/laragon/www/chatgpt_localfile_mcp/FileSystem-MCP-for-GPT/venv" \
   --remember-venv \

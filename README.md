@@ -126,9 +126,9 @@ Screenshots, logs, reports, terminal output, and test artifacts saved to a repos
 Keep these files together in one folder:
 
 ```text
-fileSystemMCP_localhost_QA.py
-start_mcp_qa.py
-start_mcp_qa_windows.bat
+src/fileSystemMCP_localhost_QA.py
+src/start_mcp_qa.py
+scripts/start_mcp_qa_windows.bat
 README_MCP_QA_STARTER.md
 README_MCP_QA_STARTER_v1_4.md
 ```
@@ -153,7 +153,7 @@ The recommended starter script. It:
 Windows convenience launcher. It calls:
 
 ```bat
-python "%~dp0start_mcp_qa.py" %*
+python "%~dp0..\src\start_mcp_qa.py" %*
 ```
 
 ### README file
@@ -432,13 +432,15 @@ mcp-localhost-qa/
    └─ test_localhost_screenshot.py
 ```
 
-For the current starter package, keeping all files together is simpler and fully acceptable:
+For the current starter package, this repo uses a cleaner layout with separate source and script folders:
 
 ```text
 FileSystem-MCP-for-GPT/
-├─ fileSystemMCP_localhost_QA.py
-├─ start_mcp_qa.py
-├─ start_mcp_qa_windows.bat
+├─ src/
+│  ├─ fileSystemMCP_localhost_QA.py
+│  └─ start_mcp_qa.py
+├─ scripts/
+│  └─ start_mcp_qa_windows.bat
 └─ README_MCP_QA_STARTER_v1_4.md
 ```
 
@@ -650,7 +652,7 @@ Example folder layout:
 First run:
 
 ```bash
-python3 /mnt/c/your-directory/FileSystem-MCP/start_mcp_qa.py \
+python3 /mnt/c/your-directory/FileSystem-MCP/src/start_mcp_qa.py \
   "/mnt/c/your-project-directory/app" \
   --venv "/mnt/c/your-directory/FileSystem-MCP/venv" \
   --remember-venv \
