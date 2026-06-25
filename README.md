@@ -643,16 +643,16 @@ WSL is recommended when your project uses Linux-native tooling but files live on
 Example folder layout:
 
 ```text
-/mnt/c/laragon/www/chatgpt_localfile_mcp/FileSystem-MCP-for-GPT/
-/mnt/c/laragon/www/MS-SaaSPlatform/
+/mnt/c/your-directory/FileSystem-MCP/
+/mnt/c/your-project-directory/app/
 ```
 
 First run:
 
 ```bash
-python3 /mnt/c/laragon/www/chatgpt_localfile_mcp/FileSystem-MCP-for-GPT/start_mcp_qa.py \
-  "/mnt/c/laragon/www/MS-SaaSPlatform" \
-  --venv "/mnt/c/laragon/www/chatgpt_localfile_mcp/FileSystem-MCP-for-GPT/venv" \
+python3 /mnt/c/your-directory/FileSystem-MCP/start_mcp_qa.py \
+  "/mnt/c/your-project-directory/app" \
+  --venv "/mnt/c/your-directory/FileSystem-MCP/venv" \
   --remember-venv \
   --with-deps
 ```
@@ -660,8 +660,8 @@ python3 /mnt/c/laragon/www/chatgpt_localfile_mcp/FileSystem-MCP-for-GPT/start_mc
 After the venv is remembered:
 
 ```bash
-python3 /mnt/c/laragon/www/chatgpt_localfile_mcp/FileSystem-MCP-for-GPT/start_mcp_qa.py \
-  "/mnt/c/laragon/www/MS-SaaSPlatform"
+python3 /mnt/c/your-directory/FileSystem-MCP/start_mcp_qa.py \
+  "/mnt/c/your-project-directory/app"
 ```
 
 ---
