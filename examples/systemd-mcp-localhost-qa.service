@@ -1,0 +1,15 @@
+[Unit]
+Description=MCP Localhost QA Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/absolute/path/to/mcp-localhost-qa
+EnvironmentFile=/etc/mcp-localhost-qa.env
+ExecStart=/absolute/path/to/venv/bin/python /absolute/path/to/mcp-localhost-qa/start_mcp_qa.py /absolute/path/to/project --venv /absolute/path/to/venv --server-file /absolute/path/to/mcp-localhost-qa/fileSystemMCP_localhost_QA.py --host localhost --port 8008 --with-deps --token ${MCP_QA_TOKEN}
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
