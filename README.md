@@ -1,4 +1,6 @@
-# MCP Local Filesystem + Localhost QA Server
+# MCP Localhost QA Starter: Let AI agents inspect your local project, run verification commands, start localhost, capture browser screenshots, and save QA evidence safely inside your repo.
+
+![Architecture](assets/architect.png)
 
 A practical Model Context Protocol (MCP) server package for local repository review, developer QA, browser screenshot evidence, and AI-assisted codebase inspection across ChatGPT, Codex, Claude, Cursor, and Gemini-compatible workflows.
 
